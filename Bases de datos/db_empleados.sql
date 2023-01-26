@@ -1,4 +1,4 @@
-CREATE DATABASE  IF NOT EXISTS `empleados` /*!40100 DEFAULT CHARACTER SET latin1 */;
+CREATE DATABASE  IF NOT EXISTS `empleados` 
 USE `empleados`;
 
 DROP TABLE IF EXISTS `departamento`;
