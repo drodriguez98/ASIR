@@ -43,4 +43,4 @@ begin
 end //
 delimiter ;
 
-	-- Para cllamarla: select id, nombre, coste, precio, beneficio(precio,tipo_iva) as precio_iva from produtos;
+	-- Para llamarla: select id, nombre, coste, precio, beneficio(precio,tipo_iva) as precio_iva from produtos;
