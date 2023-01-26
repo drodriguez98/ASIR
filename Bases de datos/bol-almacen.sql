@@ -3,7 +3,6 @@
 CREATE DATABASE Almacen;
 USE Almacen;
 CREATE TABLE produtos (id INT NOT NULL AUTO_INCREMENT, nombre VARCHAR(20) NOT NULL, coste FLOAT NOT NULL DEFAULT 0.0, precio FLOAT NOT NULL DEFAULT 0.0, tipo_iva TINYINT, PRIMARY KEY(id) );
-
 INSERT INTO productos (nombre, coste, precio, 1) VALUES ('Producto A', 4, 8, 2), ('Producto B', 1, 1.5, 2),('Producto C', 50, 80, 1);
 
 
