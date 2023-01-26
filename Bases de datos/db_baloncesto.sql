@@ -1,31 +1,6 @@
--- phpMyAdmin SQL Dump
--- version 5.1.1
--- https://www.phpmyadmin.net/
---
--- Servidor: 127.0.0.1
--- Tiempo de generación: 30-11-2022 a las 17:56:32
--- Versión del servidor: 10.4.21-MariaDB
--- Versión de PHP: 7.3.31
-
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
---
--- Base de datos: `baloncesto`
---
-
--- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `clases`
---
 
 CREATE TABLE `clases` (
   `codigo` char(3) NOT NULL,
@@ -35,21 +10,11 @@ CREATE TABLE `clases` (
   `capitan` char(7) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Volcado de datos para la tabla `clases`
---
-
 INSERT INTO `clases` (`codigo`, `grupo`, `nombre_tutor`, `puntuacion`, `capitan`) VALUES
 ('E1A', '1 ESO A', 'FEDERICO PEREZ', 6, 'E1A016'),
 ('E1B', '1 ESO B', 'TERESA CANO', 2, 'E1B016'),
 ('E2A', '2 ESO A', 'JAVIER GONZALEZ', 0, 'E2A655'),
 ('E2B', '2 ESO B', 'PATRICIA SANCHEZ', 4, 'E2B696');
-
--- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `jugadores`
---
 
 CREATE TABLE `jugadores` (
   `codalumno` char(7) NOT NULL,
@@ -59,10 +24,6 @@ CREATE TABLE `jugadores` (
   `puesto` tinyint(3) UNSIGNED NOT NULL,
   `clase` char(3) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Volcado de datos para la tabla `jugadores`
---
 
 INSERT INTO `jugadores` (`codalumno`, `nombre`, `apellido`, `tantos_marcados`, `puesto`, `clase`) VALUES
 ('E1A016', 'ALBUS', 'DEKA', 16, 4, 'E1A'),
@@ -94,21 +55,11 @@ INSERT INTO `jugadores` (`codalumno`, `nombre`, `apellido`, `tantos_marcados`, `
 ('E2B686', 'ANGEL', 'BIGTABLES', 16, 5, 'E2B'),
 ('E2B696', 'TITTO', 'LOPEZ', 16, 4, 'E2B');
 
--- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `puestos`
---
-
 CREATE TABLE `puestos` (
   `codigo` tinyint(3) UNSIGNED NOT NULL,
   `nombre` varchar(10) NOT NULL,
   `descripcion` text DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Volcado de datos para la tabla `puestos`
---
 
 INSERT INTO `puestos` (`codigo`, `nombre`, `descripcion`) VALUES
 (1, 'BASE', NULL),
@@ -117,59 +68,25 @@ INSERT INTO `puestos` (`codigo`, `nombre`, `descripcion`) VALUES
 (4, 'PIVOT', NULL),
 (5, 'ESCOLTA', NULL);
 
---
--- Índices para tablas volcadas
---
-
---
--- Indices de la tabla `clases`
---
 ALTER TABLE `clases`
   ADD PRIMARY KEY (`codigo`),
   ADD KEY `capitan` (`capitan`);
-
---
--- Indices de la tabla `jugadores`
---
+  
 ALTER TABLE `jugadores`
   ADD PRIMARY KEY (`codalumno`),
   ADD KEY `clase` (`clase`),
   ADD KEY `puesto` (`puesto`);
 
---
--- Indices de la tabla `puestos`
---
 ALTER TABLE `puestos`
   ADD PRIMARY KEY (`codigo`);
 
---
--- AUTO_INCREMENT de las tablas volcadas
---
-
---
--- AUTO_INCREMENT de la tabla `puestos`
---
 ALTER TABLE `puestos`
   MODIFY `codigo` tinyint(3) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
---
--- Restricciones para tablas volcadas
---
-
---
--- Filtros para la tabla `clases`
---
 ALTER TABLE `clases`
   ADD CONSTRAINT `clases_ibfk_1` FOREIGN KEY (`capitan`) REFERENCES `jugadores` (`codalumno`) ON DELETE SET NULL ON UPDATE CASCADE;
 
---
--- Filtros para la tabla `jugadores`
---
 ALTER TABLE `jugadores`
   ADD CONSTRAINT `jugadores_ibfk_1` FOREIGN KEY (`clase`) REFERENCES `clases` (`codigo`) ON UPDATE CASCADE,
   ADD CONSTRAINT `jugadores_ibfk_2` FOREIGN KEY (`puesto`) REFERENCES `puestos` (`codigo`) ON UPDATE CASCADE;
 COMMIT;
-
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
