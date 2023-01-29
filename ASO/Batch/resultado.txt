@@ -1,0 +1,360 @@
+
+---------- C:\WINDOWS\BFSVC.EXE
+Microsoft.Windows.BootFileServicing
+<!-- Copyright (c) Microsoft Corporation -->
+    name="Microsoft.Windows.Boot.Servicing"
+
+---------- C:\WINDOWS\BOOTSTAT.DAT
+
+---------- C:\WINDOWS\COMSETUP.LOG
+
+---------- C:\WINDOWS\DTCINSTALL.LOG
+
+---------- C:\WINDOWS\EDUCATION.XML
+		<component name="Microsoft-Windows-Audio-AudioCore" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Audio-AudioCore" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-BaseCrashDumpSettings" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-BaseCrashDumpSettings" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-explorer" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-explorer" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-FileSystemDependencyMiniFilter" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-FileSystemDependencyMiniFilter" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-HAL" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-HAL" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Licensing-Client-Pro" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Licensing-Client-Pro" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Media-Capture-AppCapture-Stub" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Media-Capture-AppCapture-Stub" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-MMCSS" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-MMCSS" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-NDIS-MinWin" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-NDIS-MinWin" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Networking-Internet_Authentication_Service_DataStore" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Networking-Internet_Authentication_Service_DataStore" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Networking-Internet_Authentication_Service_DataStore" processorArchitecture="wow64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Power-Policy-Definitions" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Power-Policy-Definitions" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Printing-LocalPrinting-Enterprise" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Printing-LocalPrinting-Enterprise" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+
+---------- C:\WINDOWS\EXPLORER.EXE
+Microsoft.Windows.Wil.FeatureLogging
+Microsoft.Windows.Shell.Taskbar
+Microsoft.Windows.AppLifeCycle.UI
+Microsoft-Windows-Shell-CortanaProactive
+Microsoft.Windows.Shell.Explorer
+Microsoft.Windows.Shell.ControlCenter
+Microsoft.Windows.Shell.ControlPanelBase
+Microsoft.Windows.Shell.Desktop.SoftLandingAnaheimPromotion
+Microsoft.Windows.Desktop.Shell.SoftLanding
+Microsoft.Windows.Desktop.Shell.NotificationArea
+Microsoft.Windows.Shell.StateCapture
+Microsoft.Windows.Shell.MeetNow
+Microsoft.Windows.Shell.NotificationCenter
+Microsoft.Windows.ShellPlacements
+Microsoft.Windows.Shell.Taskbar.ProgrammableTaskbar
+Microsoft.Windows.Shell.Feeds
+Microsoft-Windows-Shell-Launcher
+Microsoft-Windows-Desktop-Shell-Windowing
+Microsoft.Windows.ShellExperienceDispatcher
+Microsoft.Windows.Shell.TileBadgeProvider
+Microsoft.Windows.Shell.Taskbar.DefaultPinningProvider
+Microsoft.Windows.Licensing.IUI
+Microsoft.Windows.TlgAggregateInternal
+Microsoft.Windows.Desktop.Shell.ImmersiveIcons
+Microsoft.Windows.Shell.Oobe.ExpeditedUpdate
+Microsoft.Windows.Shell.ScoobeEligibility
+Microsoft.Windows.Shell.OpenWith
+Microsoft.Windows.Shell.PrivacyConsentLogging
+Microsoft.Windows.MobilityExperience
+Microsoft.Windows.ContentDeliveryManager
+Microsoft.Windows.Desktop.Shell.OOBEHealth
+Microsoft.Windows.Shell.Desktop.LogonFramework
+MicrosoftWindowsFileExplorer
+Microsoft.Windows.Shell.CoCreateInstanceAsSystem
+<!-- Copyright (c) Microsoft Corporation -->
+    name="Microsoft.Windows.pcshellshell.explorer"
+            name="Microsoft.Windows.Common-Controls"
+Microsoft Corporation1.0,U%Microsoft Windows Production PCA 20110220505192315Z230504192315Z0p10	UUS10U
+Microsoft Corporation10UMicrosoft Windows0Ç"0	*ÜHÜ˜
++0UC"&©˘:Tt3nÃv~BpdÃÅ÷<0TUM0K§I0G1-0+U$Microsoft Ireland Operations Limited10U229879+4700220U#0Ä©)9éƒóxÕê˘ûOö·|UØS0TUM0K0I†G†EÜChttp://www.microsoft.com/pkiops/crl/MicWinProPCA2011_2011-10-19.crl0a+U0S0Q+0ÜEhttp://www.microsoft.com/pkiops/certs/MicWinProPCA2011_2011-10-19.crt0Uˇ0
+Microsoft Corporation1200U)Microsoft Root Certificate Authority 20100111019184142Z261019185142Z0ÅÑ10	UUS10U
+Microsoft Corporation1.0,U%Microsoft Windows Production PCA 20110Ç"0	*ÜHÜ˜
+Microsoft Corporation1.0,U%Microsoft Windows Production PCA 20113
+Microsoft Corporation1)0'U Microsoft Operations Puerto Rico1&0$UThales TSS ESN:F7A6-E251-150A1%0#UMicrosoft Time-Stamp Service†Ç_0Ç0Ç¯†3
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20100220302185119Z230511185119Z0ÅŒ10	UUS10U
+Microsoft Corporation1)0'U Microsoft Operations Puerto Rico1&0$UThales TSS ESN:F7A6-E251-150A1%0#UMicrosoft Time-Stamp Service0Ç"0	*ÜHÜ˜
+^b]ÉÙÂ“eßS5Èr0_UX0V0T†R†PÜNhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l+`0^0\+0ÜPhttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0Uˇ0
+Microsoft Corporation1200U)Microsoft Root Certificate Authority 20100210930182225Z300930183225Z0|10	UUS10U
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20100Ç"0	*ÜHÜ˜
+Microsoft Corporation1)0'U Microsoft Operations Puerto Rico1&0$UThales TSS ESN:F7A6-E251-150A1%0#UMicrosoft Time-Stamp Service¢#
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20100	*ÜHÜ˜
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20103
+Microsoft Corporation1&0$UMicrosoft Time-Stamp PCA 20103
+
+---------- C:\WINDOWS\HELPPANE.EXE
+Microsoft.Windows.Help
+Microsoft.Windows.Wil.FeatureLogging
+      name="Microsoft.Help"
+          name="Microsoft.Windows.Common-Controls"
+
+---------- C:\WINDOWS\HH.EXE
+<!-- Copyright (c) Microsoft Corporation -->
+    name="Microsoft.Windows.Help.HH"
+<description>Microsoft HTML Help Executable</description>
+
+---------- C:\WINDOWS\MIB.BIN
+
+---------- C:\WINDOWS\NOTEPAD.EXE
+Microsoft.Notepad
+<!-- Copyright (c) Microsoft Corporation -->
+    name="Microsoft.Windows.Shell.notepad"
+            name="Microsoft.Windows.Common-Controls"
+
+---------- C:\WINDOWS\PFRO.LOG
+9/2/2022 9:18:12 - PFRO Error: \??\C:\Users\usuario\AppData\Local\Microsoft\Windows\INetCache\counters.dat, |delete operation|, 0xc0000034
+9/2/2022 9:29:23 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{E43A500E-0616-40F0-94F0-F53970A02F0A}\MpKslDrv.sys, |delete operation|, 0xc0000034
+9/6/2022 10:16:8 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{E43A500E-0616-40F0-94F0-F53970A02F0A}\MpKslDrv.sys, |delete operation|, 0xc0000034
+9/12/2022 9:22:45 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{3CEB373D-AB86-474F-9F3A-C7832404676C}\MpKslDrv.sys, |delete operation|, 0xc0000034
+9/13/2022 8:45:29 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{312ACAFA-84FE-4467-B2D7-17239039A8BF}\MpKslDrv.sys, |delete operation|, 0xc0000034
+9/13/2022 10:51:42 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{15DD5052-B158-4385-823E-1AD401843D86}\MpKslDrv.sys, |delete operation|, 0xc0000034
+9/13/2022 16:10:49 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{919A5C7C-D6BD-483D-AAB6-BCFED69D634F}\MpKslDrv.sys, |delete operation|, 0xc0000034
+9/14/2022 9:3:23 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{8A8B626D-1ECE-40F0-B46D-9CF5F69DFBCA}\MpKslDrv.sys, |delete operation|, 0xc0000034
+9/14/2022 12:31:56 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{1526901A-0D87-41B6-BF9C-CB7FBB18F5C9}\MpKslDrv.sys, |delete operation|, 0xc0000034
+9/15/2022 10:36:24 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{1526901A-0D87-41B6-BF9C-CB7FBB18F5C9}\MpKslDrv.sys, |delete operation|, 0xc0000034
+9/16/2022 8:38:45 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{C9EF40D3-451B-4FC0-B1C2-1EB8B1F1939F}\MpKslDrv.sys, |delete operation|, 0xc0000034
+9/16/2022 9:56:11 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{87ACA148-A978-4055-9509-9BFE11726ECD}\MpKslDrv.sys, |delete operation|, 0xc0000034
+9/19/2022 8:34:17 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{87ACA148-A978-4055-9509-9BFE11726ECD}\MpKslDrv.sys, |delete operation|, 0xc0000034
+9/19/2022 11:36:2 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{93624318-458E-469A-875D-77CBECC8C51C}\MpKslDrv.sys, |delete operation|, 0xc0000034
+9/19/2022 13:31:32 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{34CA16E5-373B-451A-AE24-93629A7B26F4}\MpKslDrv.sys, |delete operation|, 0xc0000034
+9/20/2022 10:36:33 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{A1F5694B-C917-4E03-BEF2-E68F47BF2BC6}\MpKslDrv.sys, |delete operation|, 0xc0000034
+9/20/2022 16:3:32 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{0AA2816A-AE5A-4DEF-9ABA-5D76816DB1B3}\MpKslDrv.sys, |delete operation|, 0xc0000034
+9/21/2022 8:42:17 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{D02C2347-7B82-42D9-BE6B-B3F0B6CE21F0}\MpKslDrv.sys, |delete operation|, 0xc0000034
+9/22/2022 8:38:53 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{31E70F12-D88E-4B82-A83F-F2F18621E046}\MpKslDrv.sys, |delete operation|, 0xc0000034
+9/23/2022 9:18:48 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{06497D4D-3F4B-4A53-A0C9-E27A0B0CA325}\MpKslDrv.sys, |delete operation|, 0xc0000034
+9/23/2022 9:21:0 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{06497D4D-3F4B-4A53-A0C9-E27A0B0CA325}\MpKslDrv.sys, |delete operation|, 0xc0000034
+9/23/2022 10:37:34 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{BB604B72-2E1F-49AA-9A25-86683EFF9E25}\MpKslDrv.sys, |delete operation|, 0xc0000034
+9/26/2022 8:39:25 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{BB604B72-2E1F-49AA-9A25-86683EFF9E25}\MpKslDrv.sys, |delete operation|, 0xc0000034
+9/27/2022 10:34:57 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{343E4B55-32C5-4841-9D25-EF6596575307}\MpKslDrv.sys, |delete operation|, 0xc0000034
+9/27/2022 16:7:31 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{EC8B76E0-1A0A-477C-86D3-ECFDE9BE9473}\MpKslDrv.sys, |delete operation|, 0xc0000034
+9/27/2022 23:17:19 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{17D0B922-A496-4C54-87CB-44E86F42AAAC}\MpKslDrv.sys, |delete operation|, 0xc0000034
+9/28/2022 20:30:41 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{65F9AF99-BBF3-4115-BDD2-C32DA21DB223}\MpKslDrv.sys, |delete operation|, 0xc0000034
+9/30/2022 8:40:52 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{91791331-A3FA-49F9-88E1-BA3DAD640D8E}\MpKslDrv.sys, |delete operation|, 0xc0000034
+9/30/2022 10:38:57 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{91791331-A3FA-49F9-88E1-BA3DAD640D8E}\MpKslDrv.sys, |delete operation|, 0xc0000034
+10/3/2022 8:43:32 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{001ADF3F-3899-4706-A1AA-AA33D40DB832}\MpKslDrv.sys, |delete operation|, 0xc0000034
+10/4/2022 10:37:21 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{F4877AB2-2A27-4B78-9684-13285EFE185E}\MpKslDrv.sys, |delete operation|, 0xc0000034
+10/4/2022 16:8:27 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{EAA1157C-6354-47C1-91E1-D07A5697E2EE}\MpKslDrv.sys, |delete operation|, 0xc0000034
+10/5/2022 8:52:20 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{528678A6-3160-4DCE-8ED0-E85CFBE1B0FA}\MpKslDrv.sys, |delete operation|, 0xc0000034
+10/6/2022 8:42:50 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{DDEC8C77-525F-4F42-82E8-9D24062BB7F5}\MpKslDrv.sys, |delete operation|, 0xc0000034
+10/7/2022 10:38:3 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{ABBF2405-FCBB-49DF-B7A7-6D122EC38ACA}\MpKslDrv.sys, |delete operation|, 0xc0000034
+10/10/2022 9:19:44 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{2FD9246D-FEFC-4BEE-A401-9150C68BCA23}\MpKslDrv.sys, |delete operation|, 0xc0000034
+10/11/2022 10:34:57 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{D3DA5603-2BCF-4770-8110-1B6C52AC6C0E}\MpKslDrv.sys, |delete operation|, 0xc0000034
+10/11/2022 12:36:43 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{0AA248AB-FB1E-4B31-B384-88647578D7F0}\MpKslDrv.sys, |delete operation|, 0xc0000034
+10/11/2022 16:6:0 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{0AA248AB-FB1E-4B31-B384-88647578D7F0}\MpKslDrv.sys, |delete operation|, 0xc0000034
+10/13/2022 8:40:3 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{624F731D-07DA-4AD4-A66E-6FA33928E771}\MpKslDrv.sys, |delete operation|, 0xc0000034
+10/13/2022 16:50:33 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{6BE6A370-C051-4DA0-B482-DE16CD345DFA}\MpKslDrv.sys, |delete operation|, 0xc0000034
+10/14/2022 8:52:19 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{6BE6A370-C051-4DA0-B482-DE16CD345DFA}\MpKslDrv.sys, |delete operation|, 0xc0000034
+10/14/2022 10:40:57 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{6BE6A370-C051-4DA0-B482-DE16CD345DFA}\MpKslDrv.sys, |delete operation|, 0xc0000034
+10/17/2022 13:3:40 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{9F35453B-17F1-486E-814D-664F7A70E03F}\MpKslDrv.sys, |delete operation|, 0xc0000034
+10/18/2022 10:36:18 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{9F35453B-17F1-486E-814D-664F7A70E03F}\MpKslDrv.sys, |delete operation|, 0xc0000034
+10/18/2022 16:6:48 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{D3DD5069-ED93-47D0-AF70-CFB9A61C28A4}\MpKslDrv.sys, |delete operation|, 0xc0000034
+10/19/2022 8:40:1 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{68F0972F-560D-4B3E-89AD-3404274F3241}\MpKslDrv.sys, |delete operation|, 0xc0000034
+10/20/2022 9:46:7 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{9F489EDC-ACE8-47FD-B41C-12E28689F6F1}\MpKslDrv.sys, |delete operation|, 0xc0000034
+10/21/2022 10:43:5 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{1102FD7F-BDCB-42FE-AD29-A5BBEECDAF1B}\MpKslDrv.sys, |delete operation|, 0xc0000034
+10/21/2022 10:47:11 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{1102FD7F-BDCB-42FE-AD29-A5BBEECDAF1B}\MpKslDrv.sys, |delete operation|, 0xc0000034
+10/24/2022 8:55:8 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{6DEDFC1F-9BAC-4778-8BF0-45D3022DDDFB}\MpKslDrv.sys, |delete operation|, 0xc0000034
+10/24/2022 10:17:50 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{EE0D236D-BBFD-4BC5-B32E-7C13EBB83A33}\MpKslDrv.sys, |delete operation|, 0xc0000034
+10/26/2022 8:49:42 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{EE0D236D-BBFD-4BC5-B32E-7C13EBB83A33}\MpKslDrv.sys, |delete operation|, 0xc0000034
+10/26/2022 8:52:6 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{EE0D236D-BBFD-4BC5-B32E-7C13EBB83A33}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/2/2022 8:41:52 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{74B639F4-8C8A-461E-968B-66F8FFAF5924}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/2/2022 11:15:50 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{D70E3E29-D0BD-49E9-B677-1E0CC9DEDCFB}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/2/2022 18:41:31 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{78DF1CEA-26B8-4DF5-8DB9-05C988BE0359}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/3/2022 10:39:29 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{A6E1CC9D-1366-4AEB-ADE7-C85FB51D74D6}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/4/2022 10:40:13 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{4981CC7A-E521-41FC-9386-CE7FA598B0A9}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/4/2022 10:43:20 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{4981CC7A-E521-41FC-9386-CE7FA598B0A9}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/7/2022 8:32:34 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{B6D18A64-443E-49FA-86AD-F5EC30C68F37}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/7/2022 13:24:52 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{EAD02AA5-7CD1-4758-9A4F-D833A80F77E4}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/8/2022 10:36:56 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{A922CED0-BF46-4982-84DD-7189366C2945}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/8/2022 16:5:4 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{43C0ECE1-20DA-4632-94AA-14AD6493228F}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/9/2022 9:5:25 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{5419E698-5D71-4386-885E-24DE31B5C39E}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/10/2022 9:22:29 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{23453484-DC62-4558-9919-3D92FA3EFD3E}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/10/2022 19:20:17 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{AB5000C6-C162-4619-A663-3A49BC0C7A0E}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/11/2022 8:52:35 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{2173B4CA-860C-4267-B314-DDA6FA19D8B9}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/14/2022 8:38:30 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{63501CC0-F1C6-48F5-AC89-6FFE240964A0}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/15/2022 10:37:1 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{B0E3E4CA-7D36-449C-A926-DF325A7F52AC}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/15/2022 19:9:53 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{F869C99C-733C-4345-A35E-2C818F027B0A}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/16/2022 8:39:58 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{46BECAF5-CB41-454C-8687-41430649F6FB}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/17/2022 0:56:40 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{6DE907A9-CB76-4745-A9E0-FE49CF13B468}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/17/2022 9:27:42 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{76F6CE0C-199A-41B0-B995-22E2218B9D16}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/17/2022 16:46:42 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{BEED1CB9-73A6-4728-90B0-E99F1816591B}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/18/2022 9:20:36 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{1CADCAB2-B64D-4C1F-B5F4-989C19B71111}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/21/2022 8:38:39 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{DC9E5902-8E6D-4BD3-AD16-548598FF36A3}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/22/2022 10:39:6 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{3284CD6E-F58E-4739-9D0E-4BA23E666632}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/22/2022 16:4:54 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{1055DC3F-16F4-477F-B0BD-ED94152DF4DE}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/23/2022 12:11:19 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{A4D466CE-6022-44C9-8DD9-A1565BFDEBF3}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/24/2022 8:45:46 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{72D91087-9514-4D32-9D89-3FDC9F323517}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/25/2022 10:38:18 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{76EFA7F3-96E3-410F-94D1-B69DCBFFC169}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/28/2022 8:35:29 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{B78CE4E9-8A9A-43AB-9722-D2CEE3EF1161}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/29/2022 10:39:59 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{AA412FEB-E373-4D2B-9942-C88D954786F1}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/29/2022 16:10:18 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{B5B7BC96-F34E-4465-8F35-0BF523894EC5}\MpKslDrv.sys, |delete operation|, 0xc0000034
+11/30/2022 8:47:48 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{B5B7BC96-F34E-4465-8F35-0BF523894EC5}\MpKslDrv.sys, |delete operation|, 0xc0000034
+12/1/2022 10:38:1 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{E11B328E-AC27-4212-877D-67F37DD57322}\MpKslDrv.sys, |delete operation|, 0xc0000034
+12/2/2022 13:15:54 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{77B218E0-397E-407A-A23A-EF9D6F38F9F4}\MpKslDrv.sys, |delete operation|, 0xc0000034
+12/2/2022 13:19:21 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{77B218E0-397E-407A-A23A-EF9D6F38F9F4}\MpKslDrv.sys, |delete operation|, 0xc0000034
+12/5/2022 8:38:23 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{022BAFBC-5316-4FFA-A1E9-EA29E5CB2DC8}\MpKslDrv.sys, |delete operation|, 0xc0000034
+12/5/2022 10:11:20 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{9ED70064-CFC4-4A77-BB6B-BF7AE6928DBD}\MpKslDrv.sys, |delete operation|, 0xc0000034
+12/5/2022 11:36:13 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{9ED70064-CFC4-4A77-BB6B-BF7AE6928DBD}\MpKslDrv.sys, |delete operation|, 0xc0000034
+12/7/2022 8:41:17 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{644C7DD6-9A97-4CA7-8D03-AD77896CD9BE}\MpKslDrv.sys, |delete operation|, 0xc0000034
+12/7/2022 13:27:2 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{2877198F-7263-4CAD-93CF-D65B7E1C0075}\MpKslDrv.sys, |delete operation|, 0xc0000034
+12/9/2022 12:58:33 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{2877198F-7263-4CAD-93CF-D65B7E1C0075}\MpKslDrv.sys, |delete operation|, 0xc0000034
+12/9/2022 13:5:47 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{2877198F-7263-4CAD-93CF-D65B7E1C0075}\MpKslDrv.sys, |delete operation|, 0xc0000034
+12/10/2022 18:4:24 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{BC7F9A63-D10E-4935-A24F-4577734460BD}\MpKslDrv.sys, |delete operation|, 0xc0000034
+12/10/2022 23:6:41 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{D0DF1ED1-F493-4825-B277-E5C3E420AFEB}\MpKslDrv.sys, |delete operation|, 0xc0000034
+12/11/2022 17:36:42 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{D5139051-8ABB-428B-91F5-6A7107BEF76E}\MpKslDrv.sys, |delete operation|, 0xc0000034
+12/12/2022 8:50:53 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{A5AF30B1-5E62-49EC-B330-373AA05D2221}\MpKslDrv.sys, |delete operation|, 0xc0000034
+12/12/2022 12:15:49 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{BAF962ED-B68F-419C-ACDB-A1A31D0CF77A}\MpKslDrv.sys, |delete operation|, 0xc0000034
+12/13/2022 10:36:15 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{EDE0F105-E3A0-4090-A5F8-1DAD9D1F0464}\MpKslDrv.sys, |delete operation|, 0xc0000034
+12/14/2022 8:51:3 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{6950A43B-DDCA-432B-AD65-FC4338A01035}\MpKslDrv.sys, |delete operation|, 0xc0000034
+12/15/2022 8:38:50 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{561E913B-8C21-468F-B39F-20C330BD530A}\MpKslDrv.sys, |delete operation|, 0xc0000034
+12/15/2022 23:13:16 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{3732E1D7-033E-412B-BAAF-0C531F8DEC07}\MpKslDrv.sys, |delete operation|, 0xc0000034
+12/16/2022 10:35:12 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{010CECD3-8194-4077-9CD2-D971831512DE}\MpKslDrv.sys, |delete operation|, 0xc0000034
+12/19/2022 8:40:12 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{A2DC29BE-62C1-42BE-950C-DC0EB99137F8}\MpKslDrv.sys, |delete operation|, 0xc0000034
+1/9/2023 8:37:52 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{224B7367-6813-47F3-BC64-6A082C36DE2F}\MpKslDrv.sys, |delete operation|, 0xc0000034
+1/10/2023 10:38:17 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{A0F93234-E5C6-45BC-9478-DF4F46F2FA49}\MpKslDrv.sys, |delete operation|, 0xc0000034
+1/11/2023 8:37:0 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{09E99127-B234-4AC1-9CFB-9DEF2DE2D8D9}\MpKslDrv.sys, |delete operation|, 0xc0000034
+1/12/2023 10:34:37 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{3BE54CED-F8EB-427A-8594-E02B8EA658C8}\MpKslDrv.sys, |delete operation|, 0xc0000034
+1/13/2023 10:37:57 - PFRO Error: \??\C:\ProgramData\Microsoft\Windows Defender\Definition Updates\{597A1A02-23F6-4A66-BBA9-E4ACE6A5BE4F}\MpKslDrv.sys, |delete operation|, 0xc0000034
+
+---------- C:\WINDOWS\PROFESSIONAL.XML
+		<component name="Microsoft-Windows-Audio-AudioCore" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Audio-AudioCore" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-BaseCrashDumpSettings" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-BaseCrashDumpSettings" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-explorer" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-explorer" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-FileSystemDependencyMiniFilter" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-FileSystemDependencyMiniFilter" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-HAL" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-HAL" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Licensing-Client-Pro" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Licensing-Client-Pro" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Media-Capture-AppCapture-Stub" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Media-Capture-AppCapture-Stub" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-MMCSS" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-MMCSS" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-NDIS-MinWin" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-NDIS-MinWin" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Networking-Internet_Authentication_Service_DataStore" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Networking-Internet_Authentication_Service_DataStore" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Networking-Internet_Authentication_Service_DataStore" processorArchitecture="wow64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Power-Policy-Definitions" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Power-Policy-Definitions" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Printing-LocalPrinting-Enterprise" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Printing-LocalPrinting-Enterprise" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+
+---------- C:\WINDOWS\PROFESSIONALEDUCATION.XML
+		<component name="Microsoft-Windows-Audio-AudioCore" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Audio-AudioCore" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-BaseCrashDumpSettings" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-BaseCrashDumpSettings" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-explorer" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-explorer" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-FileSystemDependencyMiniFilter" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-FileSystemDependencyMiniFilter" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-HAL" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-HAL" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Licensing-Client-Pro" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Licensing-Client-Pro" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Media-Capture-AppCapture-Stub" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Media-Capture-AppCapture-Stub" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-MMCSS" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-MMCSS" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-NDIS-MinWin" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-NDIS-MinWin" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Networking-Internet_Authentication_Service_DataStore" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Networking-Internet_Authentication_Service_DataStore" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Networking-Internet_Authentication_Service_DataStore" processorArchitecture="wow64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Power-Policy-Definitions" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Power-Policy-Definitions" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Printing-LocalPrinting-Enterprise" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Printing-LocalPrinting-Enterprise" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+
+---------- C:\WINDOWS\PROFESSIONALWORKSTATION.XML
+		<component name="Microsoft-Windows-Audio-AudioCore" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Audio-AudioCore" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-BaseCrashDumpSettings" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-BaseCrashDumpSettings" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-explorer" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-explorer" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-FileSystemDependencyMiniFilter" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-FileSystemDependencyMiniFilter" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-HAL" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-HAL" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Licensing-Client-Pro" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Licensing-Client-Pro" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Media-Capture-AppCapture-Stub" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Media-Capture-AppCapture-Stub" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-MMCSS" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-MMCSS" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-NDIS-MinWin" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-NDIS-MinWin" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Networking-Internet_Authentication_Service_DataStore" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Networking-Internet_Authentication_Service_DataStore" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Networking-Internet_Authentication_Service_DataStore" processorArchitecture="wow64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Power-Policy-Definitions" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Power-Policy-Definitions" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Printing-LocalPrinting-Enterprise" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+		<component name="Microsoft-Windows-Printing-LocalPrinting-Enterprise" processorArchitecture="x86" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
+
+---------- C:\WINDOWS\PROGRESS.INI
+
+---------- C:\WINDOWS\REGEDIT.EXE
+<!-- Copyright (c) Microsoft Corporation -->
+	name="Microsoft.Windows.Regedit" type="win32" />
+            name="Microsoft.Windows.Common-Controls"
+
+---------- C:\WINDOWS\SETUPACT.LOG
+AudMig: Migrating role and device state from SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\{A87B5C14-0044-4710-9D26-25292251324C} to SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\{131CEF04-331C-4C48-9217-6F00973BAFBF}
+AudMig: Migrating role and device state from SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Capture\{E3C7C912-DA30-4C1F-872D-0AF223550557} to SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Capture\{83E602B1-4273-485C-8D77-3C276C2DEFB6}
+AudMig: Migrating role and device state from SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Capture\{E3EFDF1E-EB8E-4729-9271-6E19CE855C13} to SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Capture\{C8B635EC-B3AA-4E27-BAE1-88B89631BA2C}
+AudMig: Migrating role and device state from SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\{398E6856-D2B6-4768-8E29-D2E91AF534EE} to SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\{F3E5F052-8706-4378-8A38-B54B0F1EE6AA}
+AudMig: Migrating role and device state from SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\{1B0DFBF7-E82D-469F-A35C-98BFA04430C1} to SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\{05F2986E-A71F-406E-934D-0782A6D20162}
+AudMig: Migrating role and device state from SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\{5DA08566-9483-4956-BA84-768C8747ACC3} to SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\{33322F0B-52E1-49D3-91C9-144EB0D22700}
+AudMig: Migrating role and device state from SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\{33322F0B-52E1-49D3-91C9-144EB0D22700} to SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\{A583B676-E80C-4042-A6BD-33A8E0E18CFE}
+AudMig: Migrating role and device state from SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\{05F2986E-A71F-406E-934D-0782A6D20162} to SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\{66330726-D0FE-4F8F-BADC-00775D489105}
+AudMig: Migrating role and device state from SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\{215C5F31-3C7E-46BD-B907-64CEC0E345E7} to SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\{05EADA87-D3AC-4A32-9B1A-5D724B667ADE}
+AudMig: Migrating role and device state from SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Capture\{1B8AB532-4397-40C3-9750-D2A63CD7A012} to SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Capture\{F289D69D-9E8A-4233-9C16-8A5A74754DBE}
+AudMig: Migrating role and device state from SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Capture\{31ADD94F-9E2F-4BE9-BBF2-C52FE1C110A6} to SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Capture\{9D61FFA1-6B75-4ED4-ADFC-0128E0269ADC}
+AudMig: Migrating role and device state from SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\{14152810-E469-47EF-95EC-EC3A1E30DB7B} to SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\{2BDBCBA7-2A32-4987-A2E2-50058E188C94}
+AudMig: Migrating role and device state from SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Capture\{2031747B-C4F0-4A28-A4C3-078FB3062C80} to SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Capture\{C3EAB503-24E4-4CF9-A2DB-946B27963612}
+AudMig: Migrating role and device state from SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Capture\{D26C61D8-6F9B-43D7-BE7B-D6F1D31C6907} to SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Capture\{72A0A875-73D5-4DB9-87D4-6117553F087B}
+AudMig: Migrating role and device state from SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\{13281DE9-31C9-4583-9495-5B3B6DDBCDCE} to SOFTWARE\Microsoft\Windows\CurrentVersion\MMDevices\Audio\Render\{C0078189-0C81-49D9-9B94-450805701974}
+
+---------- C:\WINDOWS\SETUPERR.LOG
+
+---------- C:\WINDOWS\SPLWOW64.EXE
+<!-- Copyright (c) Microsoft Corporation -->
+        name="Microsoft.Windows.PrintScan.SplWow64Exe" type="win32" />
+                name="Microsoft.Windows.Common-Controls"
+
+---------- C:\WINDOWS\SYSTEM.INI
+
+---------- C:\WINDOWS\TWAIN_32.DLL
+Microsoft.Windows.Scan.InboxTwainDsm
+
+---------- C:\WINDOWS\WIN.INI
+
+---------- C:\WINDOWS\WINDOWSUPDATE.LOG
+
+---------- C:\WINDOWS\WINHLP32.EXE
+Microsoft.Windows.WinHlp32
+<!-- Copyright (c) Microsoft Corporation -->
+    name="Microsoft.Windows.Help.WinHlp32"
+<description>Microsoft WinHelp Executable</description>
+
+---------- C:\WINDOWS\WMSYSPR9.PRX
+
+---------- C:\WINDOWS\WRITE.EXE
+<!-- Copyright (c) Microsoft Corporation -->
+    name="Microsoft.Windows.Shell.write"
+            name="Microsoft.Windows.Common-Controls"
