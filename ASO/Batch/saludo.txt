@@ -1,0 +1,8 @@
+Continente;Pais;Capital
+Africa;Angola;Luanda
+America do Norte; Estados Unidos; Washington DC
+America do Norte;Mexico;Cidade do Mexico 
+America do Sur; Brasil;Brasilia
+Europa;Espanha;Madrid
+Europa;Alemanha;Berlin
+Oceania;Australia;Camberra
