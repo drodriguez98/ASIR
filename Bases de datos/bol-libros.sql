@@ -1,7 +1,5 @@
 --	Procedimiento para insert o update en control 
 
-
-
 DELIMITER //
 
 CREATE OR REPLACE PROCEDURE new_libro (codlib int, new_precio int, movemento varchar(20)) 
