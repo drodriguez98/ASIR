@@ -1,0 +1,22 @@
+11 January, 2023, 1:05 pm SQLSTATE[HY000] [1045] Access denied for user 'tareas'@'localhost' (using password: YES)
+11 January, 2023, 1:05 pm SQLSTATE[HY000] [1045] Access denied for user 'tareas'@'localhost' (using password: YES)
+11 January, 2023, 1:06 pm SQLSTATE[HY000] [1045] Access denied for user 'tareas'@'localhost' (using password: YES)
+11 January, 2023, 1:08 pm SQLSTATE[HY000] [1045] Access denied for user 'tareas'@'localhost' (using password: YES)
+13 January, 2023, 12:55 pm SQLSTATE[HY000] [1045] Access denied for user 'tareas'@'localhost' (using password: YES)
+13 January, 2023, 12:56 pm SQLSTATE[HY000] [1045] Access denied for user 'tareas'@'localhost' (using password: YES)
+13 January, 2023, 1:56 pm SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_taarea' in 'where clause'
+30 January, 2023, 12:56 pm SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-3, 3' at line 1
+30 January, 2023, 7:12 pm SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+30 January, 2023, 7:52 pm SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-5, 5' at line 1
+30 January, 2023, 8:29 pm SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM tareas' at line 1
+30 January, 2023, 8:29 pm SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*) FROM tareas' at line 1
+30 January, 2023, 8:57 pm SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+30 January, 2023, 9:11 pm SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+31 January, 2023, 10:42 am SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+31 January, 2023, 10:49 am SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+31 January, 2023, 10:49 am SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+31 January, 2023, 10:49 am SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+31 January, 2023, 10:52 am SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+31 January, 2023, 10:52 am SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+31 January, 2023, 10:52 am SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+31 January, 2023, 10:53 am SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
