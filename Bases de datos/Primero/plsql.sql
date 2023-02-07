@@ -1,15 +1,15 @@
---  No daría error porque el id es la clave primaria y sólo devuelve una fila
+--  No darÃ­a error porque el id es la clave primaria y sÃ³lo devuelve una fila
 
 select nome, salario into o_nome, o_salario from emp where id=10;
 
 
---  Daría error porque la ciudad no es la clave primaria y  devuelve varias filas
+--  DarÃ­a error porque la ciudad no es la clave primaria y  devuelve varias filas
 
 select nome, salario into o_nome, o_salario from emp where city='MADRID';
 
 
 
---  Procedimiento con parámetros con una sola fila --> select into
+--  Procedimiento con parÃ¡metros con una sola fila --> select into
 
 set serveroutput on;
 
@@ -25,7 +25,7 @@ execute listanombre('SEATTLE');
 
 
 
---  Procedimiento con parámetros con una sóla fila y select * --> select into
+--  Procedimiento con parÃ¡metros con una sÃ³la fila y select * --> select into
 
 set serveroutput on;
 
@@ -50,7 +50,7 @@ execute listanombre('KANSAS CITY');
 
 
 
---  Imprimir en pantalla el id y nombre de cada empleado de una determinada ciudad empleando un cursor y un loop básico
+--  Imprimir en pantalla el id y nombre de cada empleado de una determinada ciudad empleando un cursor y un loop bÃ¡sico
 
 set serveroutput on;
 
@@ -154,44 +154,3 @@ end;
 /
 
 execute listanombre('KANSAS CITY');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
