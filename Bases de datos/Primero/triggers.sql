@@ -17,7 +17,7 @@ end;
 /
 
 
--- Exemplo 2: amosar mensaxe na taboa de log cada vez que se actualiza o salario dun empregado (por cada un / t·boa)
+-- Exemplo 2: amosar mensaxe na taboa de log cada vez que se actualiza o salario dun empregado (por cada un / t√°boa)
 
 create table log (mensaxe varchar2(256), data_i timestamp);
 create or replace trigger emp_log before update on employees for each row
@@ -28,10 +28,10 @@ end;
 update employees set salary = salary * 1.1 where department_id is null;
 
 
---  TIPO 1 --> TRIGGERS QUE EVITAN O EVENTO ANTE UNHA SITUACI”N (TRIGGERS BEFORE)
+--  TIPO 1 --> TRIGGERS QUE EVITAN O EVENTO ANTE UNHA SITUACI√ìN (TRIGGERS BEFORE)
 
 
--- Exemplo 3: modificar o trigger anterior para que pete ao intentar actualizar o salario dun empregado se dito campo È nulo
+-- Exemplo 3: modificar o trigger anterior para que pete ao intentar actualizar o salario dun empregado se dito campo √© nulo
 
 create table log (mensaxe varchar2(256), data_i timestamp);
 create or replace trigger emp_log before update on employees for each row
@@ -45,10 +45,10 @@ end;
 update employees set salary = salary * 1.1 where department_id is null; 
 
 
--- Exemplo 4: Ao inserir un novo traballador ou actualizar os seus datos verificar cun trigger se un traballador È enfermero/a (E) ou mÈdico/a (M):
+-- Exemplo 4: Ao inserir un novo traballador ou actualizar os seus datos verificar cun trigger se un traballador √© enfermero/a (E) ou m√©dico/a (M):
 
-    --  Permitir se o tipo È M, especialidade not null  e andar null
-    --  Permitir tamÈn se o tipo È F, especialidade null e andar not nul
+    --  Permitir se o tipo √© M, especialidade not null  e andar null
+    --  Permitir tam√©n se o tipo √© F, especialidade null e andar not nul
 
 create table trab (id number, nome varchar2 (50), tipo varchar2 (50), especialidade varchar2 (50), andar varchar2 (50));
 create or replace trigger trab_comprob before insert or update on trab for each row
@@ -63,11 +63,11 @@ begin
 end;
 /
 
-insert into trab values (77045, 'Diego', 'E', null, '5∫'); --> no da error
+insert into trab values (77045, 'Diego', 'E', null, '5¬∫'); --> no da error
 insert into trab values (77045, 'Diego', 'E', null, null); --> tiene que dar error
 
 
--- Exemplo 4: Ao inserir un novo mÈdico verificar cun trigger se a s˙a primary key (id) non È nula, È dicir, aparece tamÈn na t·boa traballadores. Se non aparece, aparece un erro e non se pode inserir a fila.
+-- Exemplo 4: Ao inserir un novo m√©dico verificar cun trigger se a s√∫a primary key (id) non √© nula, √© dicir, aparece tam√©n na t√°boa traballadores. Se non aparece, aparece un erro e non se pode inserir a fila.
 
 create table trab (id number, nome varchar2 (50));
 alter table trab add constraint pk_trab_id primary key (id);
@@ -82,12 +82,12 @@ begin
     select * into v_trab from trab where id=:new.id;
 exception
     when no_data_found then
-        raise_application_error(-20002, 'El mÈdico debe estar dado de alta como trabajador');
+        raise_application_error(-20002, 'El m√©dico debe estar dado de alta como trabajador');
 end; 
 /
 
 
---  Exemplo 5: O mesmo que anterior, pero o id do novo mÈdico non pode ter un nulo na especialidade.
+--  Exemplo 5: O mesmo que anterior, pero o id do novo m√©dico non pode ter un nulo na especialidade.
 
 create table trab (id number, nome varchar2 (50));
 alter table trab add constraint pk_trab_id primary key (id);
@@ -105,11 +105,11 @@ begin
         end if;
 exception
     when no_data_found then
-        raise_application_error(-20003, 'El mÈdico debe estar dado de alta como trabajador');
+        raise_application_error(-20003, 'El m√©dico debe estar dado de alta como trabajador');
 end; 
 /
 
---  Exemplo 6: O mesmo que anterior, pero o id do novo mÈdico non pode coincidir co dun enfermeiro
+--  Exemplo 6: O mesmo que anterior, pero o id do novo m√©dico non pode coincidir co dun enfermeiro
 
 create or replace trigger comp_trab before insert or update of especialidade on med for each row
 declare 
@@ -122,14 +122,14 @@ begin
         end if;
         begin
             select * into v_enf from enf where id=:new.id;
-            raise_application_error(-20003, 'El id ' ||:new.id || ' ya est· dado de alta como enfermero');
+            raise_application_error(-20003, 'El id ' ||:new.id || ' ya est√° dado de alta como enfermero');
         exception
             when no_data_found then
                 null;
         end;
 exception
     when no_data_found then
-        raise_application_error(-20004, 'El mÈdico debe estar dado de alta como trabajador');
+        raise_application_error(-20004, 'El m√©dico debe estar dado de alta como trabajador');
 end; 
 /
 
@@ -147,7 +147,7 @@ end;
 / 
 
 
---  TIPO 2 --> TRIGGERS QUE CAMBIAN LOS VALORES DE LOS CAMPOS QUE SE INSERTAN O ACTUALIZAN. SÛlo pueden ser before.
+--  TIPO 2 --> TRIGGERS QUE CAMBIAN LOS VALORES DE LOS CAMPOS QUE SE INSERTAN O ACTUALIZAN. S√≥lo pueden ser before.
 
 -- Crear una secuencia y un trigger que incremente el id cada vez que se inserte un nuevo trabajador si dicho id es nulo (
 
@@ -164,7 +164,7 @@ begin
 end;
 /
 
--- Aunque hoy en dÌa se puede generar un id como identidad al crear la propia tabla con 'generated as identity'. Si aÒadimos 'by default on null' sÛlo se aplicar· cuando el id del nuevo trabajador sea nulo. Por ejemplo:
+-- Aunque hoy en d√≠a se puede generar un id como identidad al crear la propia tabla con 'generated as identity'. Si a√±adimos 'by default on null' s√≥lo se aplicar√° cuando el id del nuevo trabajador sea nulo. Por ejemplo:
 
 create table proba (
 id number generated by default on null as identity, 
@@ -183,7 +183,7 @@ numero number,
 tipo varchar2 (64),
 num_enf number);
 
--- El campo num_enf de la tabla plantas necesita contar el n˙mero de filas de la tabla enfermeros que est·n en esa planta --> A PARTIR DE AQUÕ EST¡ TODO MAL
+-- El campo num_enf de la tabla plantas necesita contar el n√∫mero de filas de la tabla enfermeros que est√°n en esa planta --> A PARTIR DE AQU√ç EST√Å TODO MAL
 
 create or replace trigger cont_enf after insert or update of planta or delete on enf for each statement;
 declare
@@ -215,7 +215,7 @@ end;
 
 create or replace trigger "nome" for "evento/s" on "taboa" compound trigger
 before statement is
-begin -- seleccionamos da t·boa e gardamos os datos noutro sitio
+begin -- seleccionamos da t√°boa e gardamos os datos noutro sitio
     null;
 end;
 before each row is -- usamos :new e :old xunto cos datos gardados no paso anterior
@@ -226,7 +226,7 @@ after each row is -- gardamos os :new e :old noutro sitio
 begin
     null;
 end;
-after statement is -- usamos os datos da t·boa xunto cos :new e :old gardados no paso anterior
+after statement is -- usamos os datos da t√°boa xunto cos :new e :old gardados no paso anterior
 begin
     null;
 end;
@@ -235,7 +235,7 @@ end;
 
 
 -- Trigger compuesto que controla el campo calculado numenf en los inserts y updates de la tabla enf.     
--- El trigger debe actualizar el n˙mero de enfermeras ˙nicamente de la planta que cambia. 
+-- El trigger debe actualizar el n√∫mero de enfermeras √∫nicamente de la planta que cambia. 
 
 create table enf (id number, andar number);
 create table andares (numero number, tipo varchar2 (50), numenf number);
@@ -256,7 +256,7 @@ end before statement;
 
 before each row is
     v_temp contaenf%ROWTYPE;
-begin       -- hai new e old pero non fozo na t·boa, fozo na temporal
+begin       -- hai new e old pero non fozo na t√°boa, fozo na temporal
     if inserting or updating then
         select * into v_temp from contaenf2 where andar=:new.andar;
         update andares set numenf=v_temp.numenf+1 where id=:new.andar;
@@ -306,45 +306,9 @@ begin
     for v_enftemp in c_enftemp loop
         select count (*) into v_conta from enf where andar = v_enftemp.andar;
         if v_conta >= 3 then
-            raise_application_error(-20001, 'No puede haber m·s de 3 enfermer@s por planta!!');
+            raise_application_error(-20001, 'No puede haber m√°s de 3 enfermer@s por planta!!');
         end if; 
     end loop;
 end after statement;
 end;
 /       
-
-
-
-
-
-
-
-
-
-SELECT * FROM TRAB;
-SELECT * FROM MED;
-SELECT * FROM ENF;
-SELECT * FROM PROBA;
-SELECT * FROM PLANTAS;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
