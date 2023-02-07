@@ -30,7 +30,7 @@ begin
         exit when dinero < subida or c_emp%notfound;
         update employees set salary = salary * 1.1 where employee_id=emp.employee_id;
     end loop;
-    dbms_output.put_line('No hay más dinero o todos los usuarios actualizados');
+    dbms_output.put_line('No hay mÃ¡s dinero o todos los usuarios actualizados');
 end;
 /
 declare
@@ -47,7 +47,7 @@ select * from employees order by salary;
 
 
 
---  BOLETÍN 1 --> Universidad de Indonesia
+--  BOLETÃN 1 --> Universidad de Indonesia
 
 
 --      1. Imprimir el salario de Neena
@@ -69,8 +69,8 @@ end;
 execute salary_emp;
 
 
---      2. Modificar el script anterior para imprimir una línea de asteriscos, 
---      luego la información del salario y luego otra línea de asteriscos.
+--      2. Modificar el script anterior para imprimir una lÃ­nea de asteriscos, 
+--      luego la informaciÃ³n del salario y luego otra lÃ­nea de asteriscos.
 
 set serveroutput on;
 
@@ -92,8 +92,8 @@ execute salary_emp2;
 
 
 --      3.  Modificar el script anterior para parametrizarlo de modo que cualquier 
---      nombre pueda ser ingresado para revelar el salario de ese empleado. Capturar excepción 
---      no existen empleados con dicho nombre o si existe más de una entrada de un mismo empleado.
+--      nombre pueda ser ingresado para revelar el salario de ese empleado. Capturar excepciÃ³n 
+--      no existen empleados con dicho nombre o si existe mÃ¡s de una entrada de un mismo empleado.
 
 set serveroutput on;
 
@@ -123,7 +123,7 @@ execute salary_emp3('Steven');
 
 
 --      4.  Modificar el script anterior empleando un cursor para mostrar el salario de varios 
---      trabajadores con el mismo nombre (evitar excepción too_many_rows).
+--      trabajadores con el mismo nombre (evitar excepciÃ³n too_many_rows).
 
 set serveroutput on;
 
@@ -152,13 +152,3 @@ end;
 /
 
 execute salary_emp4('Steven');
-
-
---      5.  Crea una tabla llamada maestros con 3 o 4 columnas. Crear sentencia PL/SQL para
---      insertar datos en esta tabla. Obviamente, los valores de las columnas deben ser
---      +parametrizado
-
-
-
-
-
