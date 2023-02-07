@@ -29,7 +29,7 @@ if condicion then
 end if;
 
 
---  Crear una función almacenado que divida dos números e imprima por pantalla la división si el primer número es mayor que el segundo o la frase "es menor" si es menor
+--  Crear una funciÃ³n almacenado que divida dos nÃºmeros e imprima por pantalla la divisiÃ³n si el primer nÃºmero es mayor que el segundo o la frase "es menor" si es menor
 
 set serveroutput on;
 create or replace function division (num1 number, num2 number)
@@ -47,7 +47,7 @@ begin
     
     else 
     
-        dbms_output.put_line('El primer número es menor que el segundo');
+        dbms_output.put_line('El primer nÃºmero es menor que el segundo');
     
     end if;
 
@@ -57,7 +57,7 @@ end division;
 select division (10,5) from dual;
 
 
---  Crear un procedimiento almacenado que divida dos números e imprima por pantalla la división si el primer número es mayor que el segundo
+--  Crear un procedimiento almacenado que divida dos nÃºmeros e imprima por pantalla la divisiÃ³n si el primer nÃºmero es mayor que el segundo
 
 set serveroutput on;
 
@@ -81,7 +81,7 @@ end div;
 
 execute div (4,2);
 
---  Crear un procedimiento almacenado que divida dos números e imprima por pantalla la división si el primer número es mayor que el segundo o la frase "es menor" si es menor
+--  Crear un procedimiento almacenado que divida dos nÃºmeros e imprima por pantalla la divisiÃ³n si el primer nÃºmero es mayor que el segundo o la frase "es menor" si es menor
 
 set serveroutput on;
 
@@ -95,11 +95,11 @@ begin
     if num1 > num2 then
     
         d:=num1/num2;
-        dbms_output.put_line('El resultado de la división es '||d);
+        dbms_output.put_line('El resultado de la divisiÃ³n es '||d);
     
     else 
         
-        dbms_output.put_line('El primer número es menor que el segundo')
+        dbms_output.put_line('El primer nÃºmero es menor que el segundo')
     
     end if;
 
@@ -134,7 +134,7 @@ loop
 end loop;
 
 
---  Programa que imprima por pantalla los 10 primeros números
+--  Programa que imprima por pantalla los 10 primeros nÃºmeros
 
 set serveroutput on;
 
@@ -161,7 +161,7 @@ end;
 execute contador(10);
 
 
---  Programa que calcule el factorial de un número
+--  Programa que calcule el factorial de un nÃºmero
 
 set serveroutput on;
 
@@ -192,7 +192,7 @@ end;
 execute factorial(4);
 
 
---  Programa que calcule el factorial de un número (con while)
+--  Programa que calcule el factorial de un nÃºmero (con while)
 
 set serveroutput on;
 
@@ -221,7 +221,7 @@ end;
 execute factorial(4);
 
         
--- Crear un programa que sume los números entre 5 y el número del parámetro
+-- Crear un programa que sume los nÃºmeros entre 5 y el nÃºmero del parÃ¡metro
 
 set serveroutput on;
 
@@ -253,63 +253,3 @@ end;
 /
 
 execute suma(8);
-    
-    
-
-
-
-
-
-
-
-
-
-
-    
-    
-
-    
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
