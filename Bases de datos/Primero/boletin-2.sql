@@ -1,4 +1,4 @@
---  1. Función que calcule el salario total de un trabajador.
+--  1. FunciÃ³n que calcule el salario total de un trabajador.
 
 set serveroutput on;
 
@@ -13,7 +13,7 @@ begin
 end;
 /
 
---  2. Función que devuelva true o false si el trabajador cobra bien.
+--  2. FunciÃ³n que devuelva true o false si el trabajador cobra bien.
 
 
 
@@ -21,5 +21,5 @@ end;
 
 
 
---  4. Procedimiento que inserte un trabajador primero comprobando si ya existe. Comprobar también si su salario es correcto.
+--  4. Procedimiento que inserte un trabajador primero comprobando si ya existe. Comprobar tambiÃ©n si su salario es correcto.
 
