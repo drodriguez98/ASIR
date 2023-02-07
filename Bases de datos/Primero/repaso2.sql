@@ -1,4 +1,4 @@
- --  ARTÕCULOS Y FABRICANTES
+ --  ART√çCULOS Y FABRICANTES
 
 --  Obtener el precio medio de los productos de cada fabricante, mostrando el nombre del fabricante
 
@@ -7,38 +7,38 @@
         where a.fabricante=b.codigo 
         group by a.nombre;
 
---  Obtener los nombres de los fabricantes que ofrecen productos cuyo precio medio es mayor o igual a 150Ä
+--  Obtener los nombres de los fabricantes que ofrecen productos cuyo precio medio es mayor o igual a 150‚Ç¨
 
         select a.nombre from fabricantes a, articulos b 
         where a.codigo=b.fabricante 
         group by a.nombre 
         having avg(precio) >= 150;
 
---  Obtener el nombre y el precio del artÌculo m·s barato
+--  Obtener el nombre y el precio del art√≠culo m√°s barato
 
         select nombre, precio 
         from articulos 
         where precio = (select min(precio) from articulos);
 
---  Obtener una lista con el nombre y el precio de los artÌculos m·s caros de cada proveedor (incluyendo el nombre del proveedor)
+--  Obtener una lista con el nombre y el precio de los art√≠culos m√°s caros de cada proveedor (incluyendo el nombre del proveedor)
 
         select a.nombre, a.precio, b.nombre 
         from articulos a, fabricantes b 
         where a.fabricante=b.codigo 
         and precio = (select max(precio) from articulos)
 
---  AÒadir un nuevo producto: Altavoces de 70Ä del fabricante 2
+--  A√±adir un nuevo producto: Altavoces de 70‚Ç¨ del fabricante 2
 
         insert into articulos (nombre, precio, fabricante) 
         values ('altavoces', 70, 2);
 
---  Cambiar el nombre del producto 8 a 'Impresora l·ser'
+--  Cambiar el nombre del producto 8 a 'Impresora l√°ser'
 
         update articulos 
-        set nombre = 'impresora l·ser' 
+        set nombre = 'impresora l√°ser' 
         where codigo = 8;
 
---  Aplicar un descuento del 10% a todos los artÌculos cuyo precio sea mayor o igual a 120Ä
+--  Aplicar un descuento del 10% a todos los art√≠culos cuyo precio sea mayor o igual a 120‚Ç¨
 
         update articulos 
         set precio=precio*0.9 
@@ -52,13 +52,13 @@
         select distinct apellidos 
         from empleados;
 
---  Obtener los datos de los empleados que se apellidan 'LÛpez' o 'PÈrez'
+--  Obtener los datos de los empleados que se apellidan 'L√≥pez' o 'P√©rez'
 
         select * from empleados 
-        where apellidos in ('LÛpez', 'PÈrez');
+        where apellidos in ('L√≥pez', 'P√©rez');
         
         select * from empleados 
-        where apellidos = 'LÛpez' or apellidos = 'PÈrez';
+        where apellidos = 'L√≥pez' or apellidos = 'P√©rez';
 
 --  Obtener los datos de los empleados que trabajan para el departamento 37 o para el departamento 77
 
@@ -73,7 +73,7 @@
         select * from empleados 
         where apellidos like 'P%';
 
---  Obtener el n˙mero de empleados de cada departamento
+--  Obtener el n√∫mero de empleados de cada departamento
 
         select departamento, count(*) as total_empleados 
         from empleados 
@@ -91,7 +91,7 @@
         from empleados a, departamentos b 
         where a.departamento=b.codigo;
 
--- Obtener los nombres y apellidos de los empleados que trabajen en departamentos cuyo presupuesto sea mayor a 60.000Ä
+-- Obtener los nombres y apellidos de los empleados que trabajen en departamentos cuyo presupuesto sea mayor a 60.000‚Ç¨
 
         select a.nombre, a.apellidos 
         from empleados a, departamentos b 
@@ -107,7 +107,7 @@
         select * from departamentos 
         where presupuesto > (select avg(presupuesto) from departamentos);
 
---  Obtener los nombres de los departamentos que tienen m·s de dos empleados
+--  Obtener los nombres de los departamentos que tienen m√°s de dos empleados
 
         select a.nombre 
         from departamentos a, empleados b 
@@ -131,7 +131,7 @@
         delete from empleados 
         where departamento = 14;
 
--- Despedir a todos los empleados que trabajen en departamentos cuyo presupuesto sea mayor a 60000Ä
+-- Despedir a todos los empleados que trabajen en departamentos cuyo presupuesto sea mayor a 60000‚Ç¨
 
         delete from empleados 
         where departamento in 
@@ -140,31 +140,31 @@
 
         --  ALMACENES Y CAJAS
 
---  Obtener los tipos de contenido de las cajas sin repeticiÛn
+--  Obtener los tipos de contenido de las cajas sin repetici√≥n
 
         select distinct contenido 
         from cajas;
 
---  Obtener el valor medio de las cajas de cada almacÈn
+--  Obtener el valor medio de las cajas de cada almac√©n
 
         select almacen, avg(valor) 
         from cajas 
         group by almacen;
 
---  Obtener los cÛdigos de los almacenes cuyo valor medio de las cajas sea superior a 150Ä
+--  Obtener los c√≥digos de los almacenes cuyo valor medio de las cajas sea superior a 150‚Ç¨
 
         select almacen, avg(valor) 
         from cajas 
         group by almacen 
         having avg(valor) > 150;
 
---  Obtener el n˙mero de referencia de cada caja junto con el nombre de la ciudad en la que se encuentra
+--  Obtener el n√∫mero de referencia de cada caja junto con el nombre de la ciudad en la que se encuentra
 
         select a.num_referencia, b.lugar 
         from cajas a, almacenes b 
         where a.almacen=b.codigo;
 
---  Obtener el n˙mero de cajas que hay en cada almacÈn
+--  Obtener el n√∫mero de cajas que hay en cada almac√©n
 
         select almacen, count (*) as total_cajas 
         from cajas 
@@ -175,7 +175,7 @@
         on a.codigo=b.almacen 
         group by a.codigo;
 
---  Obtener los n˙meros de referencia de las cajas que est·n en Bilbao
+--  Obtener los n√∫meros de referencia de las cajas que est√°n en Bilbao
     
         select a.num_referencia, b.lugar 
         from cajas a right join almacenes b 
@@ -186,12 +186,12 @@
         where almacen in 
         (select codigo from almacenes where lugar = 'Bilbao');   
     
---  Insertar un nuevo almacÈn en Barcelona con capacidad para 3 cajas
+--  Insertar un nuevo almac√©n en Barcelona con capacidad para 3 cajas
 
         insert into almacenes (lugar, capacidad) 
         values ('Barcelona', 3);
     
---  Insertar una nueva caja con n˙mero de referencia 'H5RT', con contenido 'Papel', valor de 200 y situada en el almacÈn 2
+--  Insertar una nueva caja con n√∫mero de referencia 'H5RT', con contenido 'Papel', valor de 200 y situada en el almac√©n 2
 
         insert into cajas (num_referencia, contenido, valor, almacen) 
         values ('H5RT', 'papel', 200, 2);
@@ -202,31 +202,31 @@
         set valor = valor * 0.80 
         where valor > (select avg(valor) from cajas);
     
---  Eliminar todas las cajas cuyo valor sea inferior a 100Ä
+--  Eliminar todas las cajas cuyo valor sea inferior a 100‚Ç¨
 
         delete from cajas 
         where valor < 100;
         
 
-        --  PELÕCULAS Y SALAS
+        --  PEL√çCULAS Y SALAS
     
---  Obtener todas las pelÌculas que a˙n no han sido calificadas
+--  Obtener todas las pel√≠culas que a√∫n no han sido calificadas
     
         select nombre from peliculas 
         where calificacionedad is null;
     
---  Mostrar todas las salas que no proyectan ninguna pelÌcula
+--  Mostrar todas las salas que no proyectan ninguna pel√≠cula
     
         select nombre from salas 
         where pelicula is null;
     
---  Mostrar la informaciÛn de todas las salas y, si en alguna se proyecta alguna pelÌcula, mostrar tambiÈn la informaciÛn de la pelÌcula
+--  Mostrar la informaci√≥n de todas las salas y, si en alguna se proyecta alguna pel√≠cula, mostrar tambi√©n la informaci√≥n de la pel√≠cula
     
         select a.*,b.* 
         from salas a left join peliculas b 
         on a.pelicula=b.codigo;
     
---  Mostrar los nombres de las pelÌculas que no se proyectan en ninguna sala
+--  Mostrar los nombres de las pel√≠culas que no se proyectan en ninguna sala
     
         select nombre from peliculas 
         where codigo not in 
@@ -237,13 +237,13 @@
         on a.pelicula=b.codigo 
         where a.pelicula is null; 
     
---  AÒadir a todas las pelÌculas que no han sido calificadas la calificaciÛn "no recomendable para menores de 13 aÒos"
+--  A√±adir a todas las pel√≠culas que no han sido calificadas la calificaci√≥n "no recomendable para menores de 13 a√±os"
     
         update from peliculas 
         set calificacionedad = 13 
         where calificacionedad is null;
     
---  Eliminar las salas que proyectan pelÌculas recomendadas para todos los p˙blicos
+--  Eliminar las salas que proyectan pel√≠culas recomendadas para todos los p√∫blicos
     
         delete from salas 
         where pelicula in 
@@ -263,7 +263,7 @@
         from directores a, despachos b 
         where a.despacho=b.numero;
 
---  Mostrar el n˙mero de directores que hay en cada despacho
+--  Mostrar el n√∫mero de directores que hay en cada despacho
 
         select despacho, count (*) as total_directores 
         from directores 
@@ -290,11 +290,11 @@
         from directores d1 left join directores d2 
         on d1.dnijefe=d2.dni;
     
---  Asignar a todos los empleados apellidados 'PÈrez' un nuevo jefe con DNI 74568521
+--  Asignar a todos los empleados apellidados 'P√©rez' un nuevo jefe con DNI 74568521
 
         update from empleados 
         set dnijefe = '74568521' 
-        where nomapels like '%PÈrez%';
+        where nomapels like '%P√©rez%';
     
 
         --  PIEZAS Y PROVEEDORES
@@ -309,7 +309,7 @@
         where id in 
         (select idproveedor from suministra where codigopieza = 1);
 
---  Obtener los nombres de las piezas suministradas por el proveedor cuyo cÛdigo es 'HAL'
+--  Obtener los nombres de las piezas suministradas por el proveedor cuyo c√≥digo es 'HAL'
         
         select a.nombre 
         from piezas a, suministra b 
@@ -319,7 +319,7 @@
         where codigo in 
         (select codigopieza from suministra where idproveedor = 'HAL');
         
---  Obtener los nombres de los proveedores que suministran las piezas m·s caras, indicando el nombre de la pieza y el precio al que la suministran
+--  Obtener los nombres de los proveedores que suministran las piezas m√°s caras, indicando el nombre de la pieza y el precio al que la suministran
         
         select a.nombre as proveedor, c.nombre, b.precio as pieza 
         from proveedores a, suministra b, piezas c 
@@ -327,35 +327,35 @@
         and b.precio in 
         (select max(precio) from suministra a, piezas b where a.codigopieza=b.codigo group by codigopieza));
         
---  Hacer constar que la empresa con el id 'RBT' ya no va a suministrar clavos (cÛdigo 4)
+--  Hacer constar que la empresa con el id 'RBT' ya no va a suministrar clavos (c√≥digo 4)
 
         delete from suministra 
         where idproveedor = 'RBT' and codigopieza = 4; 
         
 
-        --  CIENTÕFICOS Y PROYECTOS
+        --  CIENT√çFICOS Y PROYECTOS
         
---  Sacar una relaciÛn completa de los cientÌficos asignados a cada proyecto. Mostrar dni, nombre del cientÌfico, id y nombre del proyecto 
+--  Sacar una relaci√≥n completa de los cient√≠ficos asignados a cada proyecto. Mostrar dni, nombre del cient√≠fico, id y nombre del proyecto 
         
         select a.nomapels, b.*, c.nombre
         from cientificos a, asignado_a b, proyecto c
         where a.dni=b.cientifico and c.id=b.proyecto;
 
---  Obtener el n˙mero de proyectos al que est· asignado cada cientÌfico, indicando su dni y nombre
+--  Obtener el n√∫mero de proyectos al que est√° asignado cada cient√≠fico, indicando su dni y nombre
 
         select a.dni, a.nomapels, count (proyecto) 
         from cientificos a left join asignado_a b 
         on a.dni=b.cientifico 
         group by a.dni, a.nomapels;
     
---  Obtener el n˙mero de horas de dedicaciÛn de cada cientÌfico
+--  Obtener el n√∫mero de horas de dedicaci√≥n de cada cient√≠fico
 
         select a.dni, a.nomapels, sum(horas) 
         from cientificos a, asignado_a b, proyecto c
         where a.dni=b.cientifico and c.id=b.proyecto
         group by a.dni, a.nomapels;
         
---  Obtener el dni y nombre de los cientÌficos que se dedican a m·s de un proyecto y cuya dedicaciÛn media a cada proyecto sea superior a 80 horas
+--  Obtener el dni y nombre de los cient√≠ficos que se dedican a m√°s de un proyecto y cuya dedicaci√≥n media a cada proyecto sea superior a 80 horas
 
         select a.dni, a.nomapels 
         from cientificos a, asignado_a b, proyectos c
@@ -364,9 +364,9 @@
         having count(b.proyecto) > 1 and avg(c.horas) > 80;
         
 
-        --  PRODUCTOS, CAJEROS, M¡QUINAS REGISTRADORAS Y VENTAS
+        --  PRODUCTOS, CAJEROS, M√ÅQUINAS REGISTRADORAS Y VENTAS
 
---  Mostrar el n˙mero de ventas de cada producto, ordenado de m·s a menos ventas
+--  Mostrar el n√∫mero de ventas de cada producto, ordenado de m√°s a menos ventas
 
 select a.codigo, a.nombre, a.precio, count(b.producto) as ventas_totales 
 from productos a, venta b 
@@ -375,8 +375,8 @@ group by a.codigo, a.nombre, a.precio
 order by count(b.producto) desc;
 
 
---  Obtener un informe completo de ventas, indicando el nombre del cajero que realizÛ la venta nombre y precios de los productos vendidos y piso en el que se encuentra la m·quina 
---  registradora donde se realizÛ la venta
+--  Obtener un informe completo de ventas, indicando el nombre del cajero que realiz√≥ la venta nombre y precios de los productos vendidos y piso en el que se encuentra la m√°quina 
+--  registradora donde se realiz√≥ la venta
 
 select b.nomapels as cajero, c.nombre as producto, c.precio, d.piso,
 from venta a, cajeros b, productos c, maquinas_registradoras d
@@ -398,7 +398,7 @@ where a.maquina=b.codigo and a.producto=c.codigo
 group by b.piso;
 
 
---  Obtener el cÛdigo y nombre de cada empleado junto con el importe total de sus ventas
+--  Obtener el c√≥digo y nombre de cada empleado junto con el importe total de sus ventas
 
 select b.codigo, b.nomapels as empleado, sum(c.precio) as importe_total
 from venta a, cejeros b, productos c
@@ -406,7 +406,7 @@ where a.cajero=b.codigo and a.producto=c.codigo
 group by b.codigo, b.nomapels;
 
 
---  Obtener el cÛdigo y nombre de aquellos cajeros que hayan realizado ventas en pisos cuyas ventas totales sean inferiores a los 500Ä
+--  Obtener el c√≥digo y nombre de aquellos cajeros que hayan realizado ventas en pisos cuyas ventas totales sean inferiores a los 500‚Ç¨
 
 select codigo, nomapels as empleado
 from cajeros where codigo in
@@ -422,7 +422,7 @@ having sum(precio) < 500 ) ) );
 
         --  FACULTADES, INVESTIGADORES, EQUIPOS Y RESERVAS
         
---  Obtener el dni y nombre de aquellos investigadores que han realizado m·s de una reserva
+--  Obtener el dni y nombre de aquellos investigadores que han realizado m√°s de una reserva
 
 select a.dni, a.nomapels as investigador 
 from investigadores a, reserva b
@@ -437,7 +437,7 @@ select dni, nomapels as investigador where dni in
 --  Obtener un listado completo de reservas incluyendo los siguientes datos:
 
     --  dni y nombre del investigador, junto con el nombre de su facultad
-    --  n˙mero de serie y nombre del equipo reservado, junto con el nombre de la facultad a la que pertenece
+    --  n√∫mero de serie y nombre del equipo reservado, junto con el nombre de la facultad a la que pertenece
     --  fecha de comienzo y fin de la reserva
     
 select b.dni, b.nomapels as investigador, d_inv.nombre as facultad_inv, c.numserie, c.nombre as equipo,
@@ -447,46 +447,28 @@ where a.dni=b.dni and a.numserie=c.numserie and d_inv=b.facultad and d_equ=c.fac
 
 --      MIX DE OPERACIONES DE CONJUNTOS
 
---  Imprimir una lista con dni, nombe y departamento de cada empleado. Primero los mÈdicos y luego los sanitarios
+--  Imprimir una lista con dni, nombe y departamento de cada empleado. Primero los m√©dicos y luego los sanitarios
 
-select dni, nome, dept, 'mÈdico' as trabajo from medicos 
+select dni, nome, dept, 'm√©dico' as trabajo from medicos 
 union
 select dni, nome, dept, 'sanitario' as trabajo from sanitarios;
 
---  Mostrar empleados que no son mÈdicos ni sanitarios
+--  Mostrar empleados que no son m√©dicos ni sanitarios
 
 select dni from emp 
 minus
 (select dni from medicos union select dni from sanitarios);
 
 
---  Saber que departamentos teÒen empregados: varias formas
+--  Saber que departamentos te√±en empregados: varias formas
 
 select * from departamentos where id in (select dept from empregados);
 select dept from empregados intersect select id from departamentos;
 select a.* from dept a, emp b where a.id=b.dept;
 
 
---  Saber que departamentos NON teÒen empregados: varias formas
+--  Saber que departamentos NON te√±en empregados: varias formas
 
 select * from departamentos where id not in (select dept from empregados where dept is not null);
 select id from departamentos minus select dept from empregados;
 select a.* from departamentos a left join empregados b on a.id=b.dept where b.dni is null;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
