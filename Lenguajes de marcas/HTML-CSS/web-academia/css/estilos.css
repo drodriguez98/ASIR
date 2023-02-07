@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Roboto, sans-serif;
+}
+/* Ancho de página */
+
+#container {
+	width: 80%;
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
+/* Logo */
+
+#logo{
+	margin: 25px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+/* Menú */
+
+nav{
+	background: #2E353E;
+	text-align: center;
+}
+
+.menu-item{
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 20px;
+}
+
+.menu-item a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 20px;
+}
+
+.menu-item a:hover{
+	background: #0BC5D8;
+}
+
+/* Banner */
+
+#banner img{
+	max-width: 100%;
+	height: auto;
+}
+
+
+/* Principal */
+#principal{
+	background: #F2F2F2;
+}
+
+.pral-video, .pral-art{
+	display: inline-block;
+	padding: 2em;
+	vertical-align: top;
+}
+
+.pral-video{
+	width: 55%;
+	
+}
+
+.pral-art{
+	width: 40%;
+}
+
+/* Botones */
+
+.boton-container{
+	text-align: center;
+	background: #EA6E39;
+	margin: 40px auto;
+	padding: 15px;
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+
+.boton-container:hover{
+	background: #1FBEA4;
+}
+
+/* Estilos para los artículos */
+
+article {
+	background: #F2F2F2;
+	padding: 30px;
+}
+
+article h2{
+	border-bottom: solid thin black;
+}
+.art-image{
+	display: inline-block;
+	width: 25%;
+	margin-right: 10px;
+}
+
+.art-image img{
+	max-width: 100%;
+	height: auto;
+}
+.art-cont{
+	display: inline-block;
+	width: 70%;
+	vertical-align: top;
+}
+
+figcaption{
+	background: #1FBEA4;
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+
+footer{
+	background: #2E353E;
+	color: white;
+	text-align: center;
+	padding: 45px;
+}
+
+/* Enlaces */
+a{
+	color: #0BC5D8;
+}
+a:hover{
+	color: #3A6E39;
+}
+a:visited{
+	color: #AAA;
+}
+a:active{
+	color:#F00;
+}
+
+/* Estilos para smartphones */
+
+@media screen and (max-width: 767px){
+	#container{
+		width: 100%;
+	}
+	.menu-item{
+		display: block;
+		border-bottom: solid thin white;
+	}
+	nav ul{
+		padding: 0;
+	}
+	nav ul li:hover{
+		background: #0BC5D8;
+	}
+	#principal{
+		padding: 0 10px;
+	}
+	.pral-video{
+		display: initial;
+		width:100%;
+		padding:0px;
+	}
+	.pral-art{
+		display: initial;
+		width: 100%;
+		vertical-align: initial;
+		padding: 0 30px;
+		margin: 10px 0;
+	}
+	.art-image, .art-cont{
+		display: initial;
+		width: 100%;
+		text-align: center;
+	}
+	.art-cont{
+		margin-top: 10px;
+	}
+	.art-image img{
+		width: 100%;
+		text-align: center;
+	}
+}
+
+
+/* Estilos para tablets */
+
+@media screen and (min-width: 768px and max-width: 1023px){
+	
+	#container{
+		
+		width: 100%;
+		
+	}
+	
+	.pral.video{
+		
+		float: left;
+		width: 55%;
+		padding: 1em;
+		
+	}
+	
+	.pral.art{
+		
+		width: 40%;
+		font-size: 0.9em;
+		margin: 0;
+		padding: 10px;
+		
+	}
+}
+
+/* Estilos para tablet lanscape */
+
+@media screen and (min-width: 1024px and max-width: 1385px){
+	
+	art.image{
+		
+		width: 25%;
+		
+	}
+	
+	art.cont{
+		
+		width: 75%;
+		
+	}
+	
+}
