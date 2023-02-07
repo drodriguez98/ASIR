@@ -1,0 +1,157 @@
+<!-- https://www.udemy.com/course/realiza-tu-primer-pagina-web-hmtl5-css-responsive/ -->
+
+<!DOCTYPE html>
+
+<html lang="es">
+
+	<head>
+	
+	  <meta charset="utf-8">
+	  <title>Bienvenidos</title>
+	  
+	  <link rel="stylesheet" href="css/estilos.css">
+	  
+	</head>
+
+	<body>
+		<div id="container">
+		
+			<!-- Encabezado (header) -->
+			
+			<header>
+			
+				<!-- Logo -->
+				
+				<div id="logo"><img src="img/logo.png" alt="logotipo"></div>
+				
+				<!-- Menú -->
+				
+				<nav>
+				
+					<ul>
+					
+						<li class="menu-item"><a href="#">Inicio</a></li>
+						<li class="menu-item"><a href="#">Nosotros</a></li>
+						<li class="menu-item"><a href="#">Servicios</a></li>
+						<li class="menu-item"><a href="#">Contacto</a></li>
+						
+					</ul>
+					
+				</nav>
+				
+				<!-- Banner -->
+				
+				<div id="banner"><img src="img/banner.jpg" alt="banner"></div>
+				
+			</header>
+			
+			<!-- Sección 1 con video y artículo -->		
+			
+			<section id="principal">
+				
+				<!-- Video -->
+				
+				<video class="pral-video" controls>
+				
+					<source src="video/video01.mp4" type="video/mp4">
+					<source src="video/video01.ogv" type="video/ogg">
+					
+				</video>
+				
+				<!-- Artículo -->
+				
+				<article class="pral-art">
+				
+					<h1>Título del artículo</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque ac ipsum sed pretium. Nunc tellus erat, mollis eu arcu vel, tempus faucibus nibh. Aliquam bibendum sapien lectus. </p>
+					
+					<a href="#" class='boton-container'>Más info</a>
+					
+				</article>			
+			
+			</section>
+			
+			<!-- Sección 2 con artículos -->	
+			
+			<section>
+			
+				<!-- Artículo 2 -->
+				
+				<article>
+				
+					<figure class="art-image">
+					
+						<img src="img/article02.jpg" />
+						
+						<figcaption>Artículo 2</figcaption>
+						
+					</figure>
+					
+					<div class="art-cont">
+					
+						<h2>Título del artículo 2</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque ac ipsum sed pretium. Nunc tellus erat, mollis eu arcu vel, tempus faucibus nibh. Aliquam bibendum sapien lectus. </p>
+					
+						<div class="art-footer">
+						
+							<a href="#1">Lorem ipsum</a> |
+							<a href="#2">dolor sit amet</a>
+							
+						</div>
+						
+					</div>
+					
+				</article>
+				
+				<!-- Artículo 3 -->
+				
+				<article>
+				
+					<figure class="art-image">
+					
+						<img src="img/article03.jpg" />
+						
+						<figcaption>Artículo 3</figcaption>
+						
+					</figure>
+					
+					<div class="art-cont">
+					
+						<h2>Título del artículo 3</h2>
+						
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque ac ipsum sed pretium. Nunc tellus erat, mollis eu arcu vel, tempus faucibus nibh. Aliquam bibendum sapien lectus. </p>
+					
+						<div class="art-footer">
+						
+							<a href="#1">Lorem ipsum</a> |
+							<a href="#2">dolor sit amet</a>
+							
+						</div>
+						
+					</div>
+					
+				</article>
+				
+			</section>
+			
+			<!-- Pie de página (footer) -->  
+			
+			<footer>
+			
+				<address>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque ac ipsum sed pretium.</address>
+				
+				<div>
+				
+					<a href="#">Lorem ipsum</a> | 
+					<a href="#">dolor sit amet</a> | 
+					<a href="#">dignissim</a> |
+					
+				</div>
+				
+			</footer>
+		
+		</div> <!-- div container -->
+		
+	</body>
+	
+</html>
