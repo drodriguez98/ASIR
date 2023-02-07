@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+	
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+
+body{
+	
+	background: burlywood;
+	
+}
+
+.card{
+	
+	width: 90%;
+	margin: 0 auto;
+	padding: 60px 0;
+	max-width: 1200px;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	gap : 3.5em;
+	flex-wrap: wrap;
+	
+}
+
+.card__item{
+	
+	background: #F2F2F2;
+	padding-bottom: 3em;
+	max-width: 450px; 
+	flex-basis: 280px;
+	flex-grow: 1;
+
+}
+
+.card__content{
+	
+	width: 90%;
+	margin: 0 auto;
+	
+}
+
+.card__picture{
+	
+	width: 90%;
+	margin: 0 auto;
+	background: cornflowerblue;
+	position: relative;
+	bottom: 2em;
+	
+}
+
+.card__img{
+	
+	width: 100%;
+	
+}
+
+.card__title{
+	
+	margin-bottom: 100%;
+	
+}
