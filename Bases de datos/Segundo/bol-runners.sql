@@ -1,67 +1,67 @@
 --	Función que amosa todos os datos.
 
-delimiter //
-create or replace procedure mostrar_datos ()
-begin
-	declare c_id int;
-	declare c_name varchar(100);
-	declare c_time bigint;
-	declare c_penalty1 bigint;
-	declare c_penalty2 bigint;
-	declare c_points bigint;
-	declare control int default 0;
-	declare cursor_runners cursor for select * from Runners;
-	declare continue handler for not found set control = 1;
-	open datos;
-		bucle: loop
-			fetch datos into c_id, c_Name, c_Time, c_Penalty1, c_Penalty2, c_Points;
-			if control = 1 then
-				leave bucle;
-			end if;
-			select c_id, c_Name, c_Time, c_Penalty1, c_Penalty2, c_Points;
-		end loop bucle;
-	close datos;
-end //
-delimiter ;
+DELIMITER //
+CREATE OR REPLACE PROCEDURE mostrar_datos ()
+BEGIN
+	DECLARE c_id int;
+	DECLARE c_name varchar(100);
+	DECLARE c_time bigint;
+	DECLARE c_penalty1 bigint;
+	DECLARE c_penalty2 bigint;
+	DECLARE c_points bigint;
+	DECLARE control int default 0;
+	DECLARE cursor_runners cursor for select * from Runners;
+	DECLARE continue handler for not found set control = 1;
+	OPEN datos;
+		bucle: LOOP
+			FETCH datos INTO c_id, c_Name, c_Time, c_Penalty1, c_Penalty2, c_Points;
+			IF control = 1 THEN
+				LEAVE bucle;
+			END IF;
+			SELECT c_id, c_Name, c_Time, c_Penalty1, c_Penalty2, c_Points;
+		END LOOP bucle;
+	CLOSE datos;
+END //
+DELIMITER ;
 
 
 --	Función para calcular os puntos de cada xogador.
 
-delimiter //
-create or replace function calcular_puntos (Time int, Penalty1 int, Penalty2 int) returns int
-deterministic
-begin
-	declare puntuacion_inicial int;
-	declare puntuacion_final int;
-	set puntuacion_inicial = 500 - Time;
-	set puntuacion_final = puntuacion_inicial - (5 * Penalty1) - (3 * Penalty2); 
-	return puntuacion_final;
-end // 
-delimiter ;
+DELIMITER //
+CREATE OR REPLACE FUNCTION calcular_puntos (Time int, Penalty1 int, Penalty2 int) RETURNS int
+DETERMINISTIC
+BEGIN
+	DECLARE puntuacion_inicial int;
+	DECLARE puntuacion_final int;
+	SET puntuacion_inicial = 500 - Time;
+	SET puntuacion_final = puntuacion_inicial - (5 * Penalty1) - (3 * Penalty2); 
+	RETURN puntuacion_final;
+END // 
+DELIMITER ;
 
 
 --	Procedemento que actualiza os puntos chamando á función anterior.
 
-delimiter //
-create or replace procedure puntuacions () 
-begin
-	declare c_id int;
-	declare c_name varchar(100);
-	declare c_time bigint;
-	declare c_penalty1 bigint;
-	declare c_penalty2 bigint;
-	declare c_points bigint;
-	declare control int default 0;
-	declare puntos cursor for select * from Runners;
-	declare continue handler for not found set control=1;
-	open puntos;
-		bucle: loop
-		fetch puntos into c_id, c_Name, c_Time, c_Penalty1, c_Penalty2, c_Points;
-		if control = 1 then
-			leave bucle;
-		end if;
-		update Runners set Points = calcular_puntos(c_Time, c_Penalty1, c_Penalty2) where c_id=Runner_id;
-		end loop bucle;
-	close puntos;
-end //
-delimiter;
+DELIMITER //
+CREATE OR REPLACE PROCEDURE puntuacions () 
+BEGIN
+	DECLARE c_id int;
+	DECLARE c_name varchar(100);
+	DECLARE c_time bigint;
+	DECLARE c_penalty1 bigint;
+	DECLARE c_penalty2 bigint;
+	DECLARE c_points bigint;
+	DECLARE control int default 0;
+	DECLARE puntos cursor for select * from Runners;
+	DECLARE continue handler for not found set control=1;
+	OPEN puntos;
+		bucle: LOOP
+		FETCH puntos into c_id, c_Name, c_Time, c_Penalty1, c_Penalty2, c_Points;
+		IF control = 1 THEN
+			LEAVE bucle;
+		END if;
+		UPDATE Runners SET Points = calcular_puntos(c_Time, c_Penalty1, c_Penalty2) WHERE c_id=Runner_id;
+		END LOOP bucle;
+	CLOSE puntos;
+END //
+DELIMITER;
