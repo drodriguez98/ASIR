@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+:root{
+    --color-header-footer: #fff9c4;
+    --color-fondo: #b3e5fc;
+    --color-aside: #e6ffff;
+	
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+	
+}
+
+header{
+    background: var(--color-header-footer);
+    padding: 15px;
+    margin: .1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	
+}
+
+header .logo{
+    margin-left: 15px;
+    color: black;
+    font-size: 30px;
+	
+}
+
+header .nav{
+    margin-right: 2%;
+	
+}
+
+header .nav a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 20px;
+    color: black;
+	
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+	
+}
+
+.row .section{
+    background-color: var(--color-fondo);
+    margin: .1%;
+    flex: 70%;
+	
+}
+
+.row .section .article{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+	
+}
+
+.row .section .article .img img{
+    width: 80%;
+	
+}
+
+.row .section .article .article-info{
+    padding: 50px;
+	
+}
+
+.row .section .article .article-info h2, 
+.row .section .article .article-info p{
+    padding: 10px 0;
+    text-align: justify;
+	
+}
+
+.row .aside{
+    background: var(--color-aside);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 250px;
+    margin: .1%;
+	
+}
+
+.row .aside .aside-news img{
+    width: 100%;
+    padding-bottom: 5px;
+	
+}
+
+.aside .hashtag, .aside .aside-news, .aside h2{
+    padding: 25px;
+	
+}
+
+.footer{
+    background: var(--color-header-footer);
+    padding: 30px;
+    margin: .1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	
+}
+
+/*	ESTILOS contacto.html */
+
+.section .article-form {
+	
+	background-color: var(--color-fondo);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: .1%;
+	
+}
+
+.section .article-form form {
+	
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.section .article-form form h3 {
+	
+	padding: 15px;
+	margin: 15px;
+	font-size: 35px;
+	
+}
+
+.section .article-form form input, .section .article-form form textarea {
+	
+	margin-top: 15px;
+	background-color: transparent;
+	border: 1px solid black;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 5px;
+	
+}
+
+.section .article-form form textarea {
+	
+	width: 100%;
+
+}
+
+.section .article-form form .btn {
+	
+	margin: 25px;
+	padding: 5px 50px;
+	font-size: 25px;
+	background-color: #fff9c4;
+	border: 1px solid black;
+	border-radius: 5px;
+	cursor: pointer;
+	
+}
+
+@media screen and (max-width:850px) {
+	
+	.row .aside {
+		
+		width: 100%;
+		flex-direction: row;
+		
+	}
+}
