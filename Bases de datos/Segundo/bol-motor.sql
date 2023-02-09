@@ -17,7 +17,7 @@
 
     BEGIN
 
-        UPDATE autores SET f_borrado = CURRENT_DATE() WHERE id_autor IN (SELECT autor_id FROM noticias WHERE timestampdiff(MONTH, fecha_pub, CURRENT_DATE()) > 2 GROUP BY autor_id);
+        UPDATE autores SET f_borrado = CURRENT_DATE() WHERE id_autor IN (SELECT autor_id FROM noticias WHERE timestampdiff (MONTH, fecha_pub, CURRENT_DATE()) > 2 GROUP BY autor_id);
 
     END //
 
